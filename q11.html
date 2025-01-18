@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <h1 id="cha">some heading</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur molestias autem officiis eveniet, mollitia deleniti, aliquid dolorem consectetur est accusamus, eaque vitae? Vero quidem cum cupiditate quia iusto ratione eaque.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, inventore voluptas iure magnam ullam, aspernatur dolorum necessitatibus recusandae corrupti rem fugiat id obcaecati? Ducimus, eligendi libero? Beatae voluptatibus consectetur repellendus?</p>
+    <div style="height: 100px;width: 100px;" class="container"></div>
+
+
+</body>
+</html>
+
+<script>
+    let head=document.querySelector("#cha");
+    head.textContent="Welcome to the DOM World!";
+    
+</script>
+<script>
+     let para=document.getElementsByTagName('p');
+      for(let i=0;i<para.length;i++){
+    para[i].style.color="Blue";
+    }
+</script>
+
+   <script>
+  let cuss = document.querySelector(".container");
+  cuss.style.backgroundColor = "Black";  // Corrected property name
+</script>
